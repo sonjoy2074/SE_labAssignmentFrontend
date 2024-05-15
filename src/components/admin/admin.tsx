@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./admin.css";
 import axios from "axios";
-import AddProduct from "../addProducts/add_editProduct";
+import AddProduct from "../add_editProducts/add_editProduct";
 import ProductDetails from "../viewProduct/viewProduct"; // Import the ProductDetails component
 
 interface Product {

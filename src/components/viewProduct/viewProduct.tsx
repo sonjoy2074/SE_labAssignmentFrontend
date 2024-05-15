@@ -1,5 +1,5 @@
 import React from 'react';
-import { Product } from '../addProducts/product.interface';
+import { Product } from '../add_editProducts/product.interface';
 import './viewProduct.css';
 interface ProductDetailsProps {
   product: Product;
