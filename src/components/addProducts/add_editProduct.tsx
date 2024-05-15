@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './addProduct.css'; 
-import { Product } from "../addProducts/product.interface"; 
+import { Product } from "./product.interface"; 
 
 interface AddProductProps {
   togglePopup: () => void;
